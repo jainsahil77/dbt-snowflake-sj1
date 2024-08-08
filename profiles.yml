@@ -1,0 +1,23 @@
+postgres_project1:
+  outputs:
+    dev:
+      dbname: gathr1
+      host: 172.26.78.57
+      password: postgres
+      port: 5432
+      schema: public
+      type: postgres
+      user: postgres
+  target: dev
+postgres_project1:
+  outputs:
+    dev:
+      dbname: gathr1
+      host: 172.26.78.57
+      pass: postgres
+      port: 5432
+      schema: public
+      threads: 2
+      type: postgres
+      user: postgres
+  target: dev
